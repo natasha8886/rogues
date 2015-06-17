@@ -1,0 +1,223 @@
+@charset "UTF-8";
+/* CSS Document */
+
+*{
+	margin: 0 auto;
+	padding: 0;
+}*
+
+header {
+	width: 100%;
+	height: 250px;
+	background-color: #fff;
+}
+nav {
+	float: right;
+	font-family: 'vtc_letterer_proregular';
+	font-size: 1.7em;
+}
+nav ul li {
+	display: inline;
+	margin: 0 150px 0 0;
+	line-height: 200px;
+	
+}
+
+a {
+	text-decoration:none;
+	color:#000;	
+}
+
+a:hover {
+	color:#3f93a6;	
+}
+
+a:active{
+	text-decoration:none;
+	color:#000;	
+}
+
+#logo {
+	float: left;
+}
+.wrapper {
+	width: 80%;
+	margin: 0 auto;
+}
+#meanwhile {
+	width:700px;
+	height:100px;
+	border:medium solid #000000;
+	background-color:#FFFFFF;
+
+	
+}
+#meanwhile h2 {
+	font-family:	 'Bangers', cursive;	
+	font-size:2.8em;
+	line-height:50px;
+	padding:30px;
+}
+
+#homeCont {
+	background-image: url(img/dotBg.png);
+	background-repeat: repeat;
+	width: 100%;
+	height:700px;
+}
+.homeContBox {
+	padding: 80px 0 0 0px;
+	float: left;
+	width:33.33%;
+	
+}
+
+.homeContBox img {
+	width:100%;
+}
+
+.row {
+	margin:0 auto;
+	width:100%;	
+	width:90%;
+	margin:auto;
+}
+
+#slider {
+	position: relative;
+	overflow: hidden;
+	width: 100%;
+	height: 415px;
+	clear: both;
+	border-top: thick solid rgba(0,0,0,1.00);
+	border-bottom: thick solid rgba(0,0,0,1.00);
+	font-family: 'Bangers', cursive;	
+	font-size:2.5em;
+}
+
+#slider h1 {
+	color:#fff;
+	line-height:200px;
+	
+		
+}
+
+#slider ul {
+	width:400%; position:relative; left:0%; min-height:415px; clear:both;
+}
+#slider li {
+	list-style: none;
+	height:415px;
+	overflow:hidden;
+}
+
+#slider li h2 {
+	text-align: center;
+	position: absolute;
+	bottom: 0;
+	margin: 0 0 30px 120px;
+	padding:30px;
+	border: medium solid #000000;
+	background-color: #FFFFFF;
+}
+
+#slider li img {
+	width:100%;
+	
+}
+#slider ul li {
+	float: left;
+}
+
+footer {
+	background-image: url(img/footer.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 100%;
+	height: 360px;
+	border-top: thick solid #000000;
+}
+
+footer h1 {
+	font-family: 'Bangers', cursive;
+	font-size:2em;	
+}
+
+footer p {
+	font-family:'vtc_letterer_proregular';	
+	font-size:1.5em;
+}
+
+.footCont {
+	float:left;
+ 	width: 33.333%;
+ 	margin:70px 0 0 0;
+	text-align:center;	
+ 
+}
+
+<!--comics-->
+
+svg h2 {
+	font-family: 'Bangers', cursive;	
+}
+
+
+
+.newWrapper {
+	width:70%;
+	margin:0 auto;	
+}
+
+
+
+.content {
+	background-image: url(img/roguesBG.jpg);
+	background-size:cover;
+	background-repeat:no-repeat;
+	height:1200px;	
+}
+
+
+#gamesPg {
+	background-image: url(img/dotBg.png);
+	background-repeat: repeat;
+	width: 100%;
+	height:700px;	
+}
+
+
+@-webkit-keyframes hvr-pop {
+  50% {
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+  }
+}
+
+@keyframes hvr-pop {
+  50% {
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+  }
+}
+
+.hvr-pop {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -moz-osx-font-smoothing: grayscale;
+}
+.hvr-pop:hover, .hvr-pop:focus, .hvr-pop:active {
+  -webkit-animation-name: hvr-pop;
+  animation-name: hvr-pop;
+  -webkit-animation-duration: 0.3s;
+  animation-duration: 0.3s;
+  -webkit-animation-timing-function: linear;
+  animation-timing-function: linear;
+  -webkit-animation-iteration-count: 1;
+  animation-iteration-count: 1;
+}
